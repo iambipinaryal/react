@@ -7,8 +7,8 @@ export default function Navbar(props) {
       <div className="container-fluid">
         <a className="navbar-brand" href="/">{props.title}</a>
         <div className="navbar-nav me-auto">
-          <a className="nav-link active" aria-current="page" href="/">Home</a>
-          <a className="nav-link" href="/">About</a>
+          <a className="nav-link active" aria-current="page" href="/">{props.Home}</a>
+          <a className="nav-link" href="/">{props.About}</a>
         </div>
         <form className="d-flex" role="search">
           <input
@@ -32,6 +32,6 @@ Navbar.propTypes = {
 
 Navbar.defaultProps = {
   title: 'Set title here',
-  about:'About Here',
+  About:'About Here',
   Search: 'Search',
 };
