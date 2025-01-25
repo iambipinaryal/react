@@ -10,7 +10,7 @@ export default function Navbar(props) {
           <a className="nav-link active" aria-current="page" href="/">{props.Home}</a>
           <a className="nav-link" href="/">{props.About}</a>
         </div>
-        <form className="d-flex" role="search">
+        {/*<form className="d-flex" role="search">
           <input
             className="form-control me-2"
             type="search"
@@ -18,7 +18,7 @@ export default function Navbar(props) {
             aria-label="Search"
           />
           <button className="btn btn-outline-success" type="submit">Enter</button>
-        </form>
+        </form>*/}
       </div>
     </nav>
   );
